@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>نمونه کار | @ViewData["Title"]</title>
+
+    @RenderSection("SEO", required: true)
+    
+    <link href="~/css/skel.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/style-xlarge.css" rel="stylesheet" />
+    
+</head>
+<body id="top">
+
+<header id="header">
+    <a href="#" class="image avatar">
+        <img src="~/images/avatar.jpg" alt=""/>
+    </a>
+    <h1>
+        <strong>نمونه کار من</strong>، اولین پروژه از دوره <br/>
+        Asp.net Core Mvc & Api است.<br/>
+        که توسط <a href="http://html5up.net"> موسسه آموزشی آتریا </a> تهیه شده.
+    </h1>
+
+    @* Link Generation Using Url.Action *@
+    @*<a href="@Url.Action("Index", "Home")" style="margin-left: 10px;">صفحه اصلی</a>
+        <a href="@Url.Action("Contact", "Home")">تماس با من</a>*@
+
+    @* Link Generation Using Tag Helpers *@
+    <a asp-controller="Home" asp-action="Index" style="margin-left: 10px;">صفحه اصلی</a>
+    <a asp-controller="Home" asp-action="Contact">تماس با من</a>
+
+</header>
+
+<div id="main">
+    @RenderBody()
+</div>
+
+<footer id="footer">
+    <ul class="icons">
+        <li>
+            <a href="#" class="icon fa-twitter">
+                <span class="label">Twitter</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="icon fa-github">
+                <span class="label">Github</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="icon fa-dribbble">
+                <span class="label">Dribbble</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="icon fa-envelope-o">
+                <span class="label">Email</span>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/jquery.poptrox.min.js"></script>
+<script src="~/js/skel.min.js"></script>
+<script src="~/js/init.js"></script>
+
+@RenderSection("Scripts", required: false)
+
+</body>
+</html>

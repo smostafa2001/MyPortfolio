@@ -1,0 +1,38 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "ارتباس با ما";
+}
+
+@section SEO
+{
+    <meta name="keywords" content="contact us, contact page" />
+    <meta name="description" content="contact description" />
+}
+
+
+<section id="one">
+    <header class="major">
+        <h2>
+            تماس با من
+        </h2>
+    </header>
+</section>
+
+<section id="two">
+    <div class="row">
+        <table>
+            <tr>
+                <td>Email:</td>
+                <td>@Model.Email</td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td>@Model.Mobile</td>
+            </tr>
+            <tr>
+                <td>Github:</td>
+                <td>@Model.Github</td>
+            </tr>
+        </table>
+    </div>
+</section>
