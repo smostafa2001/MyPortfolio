@@ -20,12 +20,12 @@
 		reset: 'full',
 		containers: '100%',
 		breakpoints: {
-			global: { href: 'https://localhost:44384/css/style.css', grid: { gutters: ['2.5em', 0] } },
-			xlarge: { media: '(max-width: 1800px)', href: 'https://localhost:44384/css/style-xlarge.css' },
-			large: { media: '(max-width: 1280px)', href: 'https://localhost:44384/css/style-large.css', grid: { gutters: ['2em', 0] } },
-			medium: { media: '(max-width: 980px)', href: 'https://localhost:44384/css/style-medium.css'},
-			small: { media: '(max-width: 736px)', href: 'https://localhost:44384/css/style-small.css', grid: { gutters: ['1.5em', 0] }, viewport: { scalable: false } },
-			xsmall: { media: '(max-width: 480px)', href: 'https://localhost:44384/css/style-xsmall.css' }
+			global: { href: 'https://localhost:44383/css/style.css', grid: { gutters: ['2.5em', 0] } },
+			xlarge: { media: '(max-width: 1800px)', href: 'https://localhost:44383/css/style-xlarge.css' },
+			large: { media: '(max-width: 1280px)', href: 'https://localhost:44383/css/style-large.css', grid: { gutters: ['2em', 0] } },
+			medium: { media: '(max-width: 980px)', href: 'https://localhost:44383/css/style-medium.css'},
+			small: { media: '(max-width: 736px)', href: 'https://localhost:44383/css/style-small.css', grid: { gutters: ['1.5em', 0] }, viewport: { scalable: false } },
+			xsmall: { media: '(max-width: 480px)', href: 'https://localhost:44383/css/style-xsmall.css' }
 		}
 	});
 
