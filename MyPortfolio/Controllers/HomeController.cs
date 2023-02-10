@@ -45,9 +45,9 @@ namespace MyPortfolio.Controllers
         {
             var contact = new Contact()
             {
-                Email = "hossein.abbasabadi@outlook.com",
-                Mobile = "09128099518",
-                Github = "github.com/atriya"
+                Email = "s.mostafa.2001.1380@gmail.com",
+                Mobile = "09377857287",
+                Github = "github.com/smostafa2001"
             };
             return View(contact);
         }
